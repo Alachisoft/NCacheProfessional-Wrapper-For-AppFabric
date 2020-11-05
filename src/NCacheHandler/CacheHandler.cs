@@ -826,7 +826,6 @@ namespace Alachisoft.NCache.Data.Caching
 
                 var result = new List<KeyValuePair<string, object>>(cachedDict.Count);
 
-                string key;
                 foreach (var entry in cachedDict)
                 {
                     result.Add(new KeyValuePair<string, object>(entry.Key, entry.Value));
