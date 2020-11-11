@@ -17,7 +17,7 @@ follow the minimalistic instructions in this guide.
 
 - **STEP 1:**
    
-   Install [AppFabric.NCache.Wrapper](https://www.nuget.org/packages/AppFabric.Wrapper.NCache/) NuGet in your application. After installing the Nuget package in your AppFabric application, [**client.ncconf**](https://www.alachisoft.com/resources/docs/ncache-pro/admin-guide/client-config.html) and [**config.ncconf**](https://www.alachisoft.com/resources/docs/ncache-pro/admin-guide/configure-cache-settings.html) files will be included in your project. 
+   Install [AppFabric.Wrapper.NCache.Professional](https://www.nuget.org/packages/AppFabric.Wrapper.NCache.Professional/) NuGet in your application. After installing the Nuget package in your AppFabric application, [**client.ncconf**](https://www.alachisoft.com/resources/docs/ncache-pro/admin-guide/client-config.html) and [**config.ncconf**](https://www.alachisoft.com/resources/docs/ncache-pro/admin-guide/configure-cache-settings.html) files will be included in your project. 
 
   The project **config.ncconf** file is used to configure a [local in-process NCache server](https://www.alachisoft.com/resources/docs/ncache-pro/admin-guide/create-a-cache.html#local-cache) that can be used to test your application without have to install NCache. For out-of-process local caches and clustered caches, the **config.ncconf** files used in the cache servers of your cache cluster will reside in the **%NCHOME%/Config** folder of each of the servers. Here **%NCHOME%** refers to the NCache installation directory e.g. **C:\Program Files\NCache**.
 
